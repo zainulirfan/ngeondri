@@ -37,9 +37,9 @@
                   <td><?=$user->user_bergabung?></td>
                   <td>Belum ada transaksi</td>
                   <td>
-                    <a href="index.php/admin/detail_user/<?=$user->user_id?>">Lihat</a>
-                    <a href="index.php/admin/edit_data/<?=$user->user_id?>">Ubah</a>
-                    <a href="index.php/admin/delete_user/<?=$user->user_id?>">Hapus</a>
+                    <a href="admin/detail_user/<?=$user->user_id?>">Lihat</a>
+                    <a href="admin/edit_data/<?=$user->user_id?>">Ubah</a>
+                    <a href="admin/delete_user/<?=$user->user_id?>">Hapus</a>
                   </td>
                 </tr>
                 <?php }?>

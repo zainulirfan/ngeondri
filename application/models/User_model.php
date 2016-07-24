@@ -27,6 +27,6 @@ Class User_model extends CI_Model
 	}
 	public function deleteId($id)
 	{
-		$this->db->delete($this->table, array($this->$id => $id));
+		$this->db->delete($this->table, array($this->id => $id));
 	}
 }

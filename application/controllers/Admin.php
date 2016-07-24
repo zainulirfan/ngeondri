@@ -66,4 +66,9 @@ class Admin extends CI_Controller {
 		$this->um->addid($item);
 		redirect('admin/', 'refresh');
 	}
+	public function delete_user($id)
+	{
+		$this->um->deleteId($id);
+		redirect('admin/', 'refresh');
+	}
 }
